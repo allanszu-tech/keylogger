@@ -1,5 +1,4 @@
-# K
-eylogger
+# Keylogger
 
 Este repositorio é o estudo do dio para obter conhecimenento sobre ransoware e keyloggers de atacantes, e assim adquirir conheciementos da gravidade deste tipo de ataque,as consequnias e as formas de evitar este tipo de ataque.
 Ao desenvolver os scripts consegui aprender um pouco de programação em python e uso da interface de desenvolvimento de código VS Code.
@@ -48,11 +47,44 @@ if __name__=="__main__":
 
 <img width="308" height="356" alt="VSCode_malware" src="https://github.com/user-attachments/assets/6ebc615f-aa90-40cc-a892-b1eb5109d428" />
 
+Senha original:\
+<img width="302" height="78" alt="senhatxt" src="https://github.com/user-attachments/assets/6dede5d1-1f57-49a5-a4d4-d98fc6a4c544" />
+
+Dados originais:\
+<img width="288" height="181" alt="dados_conftxt" src="https://github.com/user-attachments/assets/b8f1d4fe-fe0c-4209-9340-f4a0a9d3564d" />
+
+
 
 
 ## Resultado
 
-# keylogger simples
+**Executando o script**
+
+Linha de comando:\
+<img width="851" height="75" alt="malware_executado" src="https://github.com/user-attachments/assets/99021bd5-6b9e-4e9a-b946-1bd401232baa" />
+
+Arquivos criptografados:\
+<img width="1124" height="62" alt="senhas_criptografadas" src="https://github.com/user-attachments/assets/ca208aa2-982f-492e-b73f-5b00d1e330a1" /> 
+
+<img width="1149" height="69" alt="dados_criptografados" src="https://github.com/user-attachments/assets/c472c04e-450d-4162-b68d-d59f5b06382a" /> 
+
+
+
+**Descriptografar**
+
+Linha de comando:
+<img width="940" height="71" alt="descriptografar_executado" src="https://github.com/user-attachments/assets/b4972df6-bee8-4789-8c53-b25b88335c84" />
+
+Ao rodar o script de descritografia
+
+Senha descriptograda\
+<img width="302" height="78" alt="senhatxt" src="https://github.com/user-attachments/assets/7d5d7376-ff9b-4f0e-953a-cdd1cc6a079f" />
+
+Dados descriptografados\
+<img width="288" height="181" alt="dados_conftxt" src="https://github.com/user-attachments/assets/21b25eb0-cf01-41fc-9887-1b63159d6a66" />
+
+
+# Keylogger simples
 
 ## Script
 
@@ -120,7 +152,9 @@ pegou
 
 ## Resultado
 
-# keylogger com envio automatico
+Como resultado obtemos, com sucesso, um arquivo TXT com os dados vindo do teclado, mas o arquivo está sendo escrito e armazenado localmente na máquina da vítima.
+
+# Keylogger com envio automático
 
 ## Script
 
@@ -191,6 +225,8 @@ with keyboard.Listener(on_press=on_press) as listener:
 
 ## Resultado
 
+Um email chegou na caixa de entrada com os dados obtidos:\
+
 <img width="1153" height="419" alt="GmailKeyLogger" src="https://github.com/user-attachments/assets/7f8a7cd8-a3b3-403f-971b-75a0ba585447" />
 
 
@@ -213,6 +249,10 @@ Para evitar que arquivos suspeitos contaminem a rede principal, é essencial uti
 Na segurança da informação, o ser humano costuma ser o elo mais fraco da corrente. Por isso, investir na conscientização contínua dos usuários é indispensável. Treinamentos regulares ajudam a equipe a identificar tentativas de engenharia social, evitando cliques em links maliciosos ou o download de anexos infectados que servem de porta de entrada para esses ataques.
 
 # Conclusão
+
+Consegui aprender aprender python, entender ramsomware e tipos keyloggers
+Soma-se a isso a usar o gitub para regsostart os códigos.
+
 
 
 
