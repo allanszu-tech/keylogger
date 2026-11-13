@@ -1,8 +1,9 @@
-# keylogger
+# K
+eylogger
 
-Este repositorio éo estudo do dio para obter conehceimneto sobre ransowaree os keyloggers dos atacenes e assim aquirimi coneciemnto da gravide destipo de atwe e a forma de eveitat est iipode ataque
-Aprender progamaçao em python 
-VSCode
+Este repositorio é o estudo do dio para obter conhecimenento sobre ransoware e keyloggers de atacantes, e assim adquirir conheciementos da gravidade deste tipo de ataque,as consequnias e as formas de evitar este tipo de ataque.
+Ao desenvolver os scripts consegui aprender um pouco de programação em python e uso da interface de desenvolvimento de código VS Code.
+
 
 # Ramsonware
 
@@ -44,6 +45,11 @@ if __name__=="__main__":
 ```
 
 ## Arquivos gerados
+
+<img width="308" height="356" alt="VSCode_malware" src="https://github.com/user-attachments/assets/6ebc615f-aa90-40cc-a892-b1eb5109d428" />
+
+
+
 ## Resultado
 
 # keylogger simples
