@@ -250,10 +250,6 @@ Na segurança da informação, o ser humano costuma ser o elo mais fraco da corr
 
 # Conclusão
 
-Consegui aprender aprender python, entender ramsomware e tipos keyloggers
-Soma-se a isso a usar o gitub para regsostart os códigos.
-
-
-
+Consegui aprender programação em Python e entender mais sobre ransomware e tipos de keyloggers. Os ransomwares são muito temidos e representam a maior ameaça para uma empresa, pois podem levar à paralisação total das operações. Além disso, as chances de recuperar os dados perdidos são mínimas sem um bom backup mantido atualizado com frequência. Continuar usando o GitHub para guardar o meu aprendizado ajudou a conhecer novos aplicativos. Essas descobertas são importantes para manter o interesse no assunto de cyber segurança.
 
  
